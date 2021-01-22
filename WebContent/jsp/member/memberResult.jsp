@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+<jsp:include page="../common/menu.jsp" />
 <div align="center">
 <h1>회원가입 정보를 보여줍니다.</h1>
 <h2>

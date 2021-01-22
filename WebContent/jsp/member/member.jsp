@@ -29,6 +29,7 @@
 </style>
 </head>
 <body>
+<jsp:include page="../common/menu.jsp" />
 	<div align="center">
 		<div>
 			<h1>회 원 가 입</h1>
@@ -77,7 +78,6 @@
 			</div>
 		</form>
 		<h3>
-			<a href="../../index.jsp">홈 가기</a>
 		</h3>
 	</div>
 </body>

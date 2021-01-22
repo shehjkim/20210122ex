@@ -8,9 +8,12 @@
 </head>
 <body>
 <div align="center">
-		<h1>여기는 처음 오는 페이지</h1>
+<jsp:include page="jsp/common/menu.jsp" />
+<h1>환영합니다</h1>
+
+<!--  		<h1>여기는 처음 오는 페이지</h1>
 		<a href="jsp/member/login.jsp">로그인</a><br>
-		<a href="jsp/member/member.jsp">회원가입</a><br>
+		<a href="jsp/member/member.jsp">회원가입</a><br>-->
 </div>
 </body>
 </html>
