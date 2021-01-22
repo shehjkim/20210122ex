@@ -30,17 +30,18 @@ public class MemberResult extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		
+		request.setCharacterEncoding("UTF-8"); 
 		String name=request.getParameter("name");
 		String id=request.getParameter("id");
 		String pw=request.getParameter("pw");
 		String gender=request.getParameter("gender");
-		String hobbys=request.getParameter("hobbys");
+		String hobbys[]=request.getParameterValues("hobbys");
 		String tel=request.getParameter("tel");
 		
-		response.setContentType("text/html; charset=UTF-8");
-		response.setCharacterEncoding("utf-8");
 		
+		
+
+				
 		RequestDispatcher dispatcher = request.getRequestDispatcher("jsp/member/memberResult.jsp");
 		dispatcher.forward(request, response);
 		
